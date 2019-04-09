@@ -1,4 +1,6 @@
 
+const app = require("express");
+
 // Use Handlebars to render the main index.html page with the restaurants in it.
 app.get("/", function(req, res) {
     connection.query("SELECT rest_name FROM restaurants;", function(err, data) {
