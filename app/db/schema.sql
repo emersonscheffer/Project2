@@ -20,6 +20,8 @@ CREATE TABLE menu (
   item_description VARCHAR(500) NULL,
   rest_name VARCHAR(100) NOT NULL,
   item_pic VARCHAR(100) NULL,
+  order TINYINT(1) default 0,
+  cart_quantity INT NULL,
   PRIMARY KEY (id)
 );
 
