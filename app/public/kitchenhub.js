@@ -23,10 +23,14 @@ let submitBtn = document.getElementById("submit-btn").onclick = function(event){
 
     var kName = document.getElementById('kname').value.trim();
     var kType = document.getElementById('ktype').value.trim();
+    var kWeb = document.getElementById('kweb').value.trim();
+    var kTel = document.getElementById('ktel').value.trim();
     var kDesc = document.getElementById('description').value.trim();
     
     console.log(kName);
     console.log(kType);
+    console.log(kWeb);
+    console.log(kTel);
     console.log(kDesc);
 };
 
